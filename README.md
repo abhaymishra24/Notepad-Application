@@ -1,7 +1,7 @@
 
 # Notepad-Application (Using Java)
  
-![Standpickup logo](https://github.com/abhaymishra24/Notepad-Application/blob/main/note%20pade.jpg)
+![Standpickup logo](https://github.com/abhaymishra24/Notepad-Application/blob/main/note_pade.jpg)
 
 ### Project Descripton✍️
 
