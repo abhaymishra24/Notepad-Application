@@ -171,6 +171,18 @@ class Sav_option implements ActionListener
                }
          }
 
+        class Cop_option implements ActionListener
+           {
+            public void actionPerformed(ActionEvent copy_o)
+              {
+                String sText = tArea.getSelectedText();
+                StringSelection cString = new StringSelection(sText);
+                cBoard.setContents(cString, cString);
+              }
+           }
+
+           
+
       
 
 
