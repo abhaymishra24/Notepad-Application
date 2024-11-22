@@ -79,7 +79,45 @@ Notepad()
         }
     }
     
-    clas
+    class Ope_option implements ActionListener 
+    {
+        public void actionPerformed(ActionEvent ope)
+        {
+            FileDialog fDialog = new FileDialog (Notepad.this, "Select a text file", FileDialog.LOAD);
+
+            fDialog.show();
+
+            if (fDialog.getFile() !=null)
+            {
+                fName = fDialog.getDirectory() + fDialog.getFile();
+                setTitle(fName);
+                ReadFile();
+            }
+            tArea.requestFocus();
+        }
+    }
+
+class Clos_option implements ActionListener
+    {
+        public void actionPerformed(ActionEvent close_o)
+        {
+            System.exit(0);
+        }
+    }
+
+class Sav_option implements ActionListener
+    {
+        public void actionPerformed(ActionEvent sav_o)
+        {
+            FileDialog fDialog = new FileDialog(Notepad.this, "Save the text file with .txt extension", FileDialog.SAVE);
+            fDialog.show();
+
+            if (fDialog.getFile() != null)
+            {
+                fName = fDialog.getDirectory() + fDialog.getFile();
+            }
+        }
+    }
 
       
 
