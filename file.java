@@ -1,4 +1,5 @@
 
+import com.sun.source.tree.TryTree;
 import java.io.*;
 import java.awt.datatransfer.*;
 import java.awt.event.*;
@@ -139,7 +140,22 @@ class Sav_option implements ActionListener
         }
     }
 
-    void
+    void ReadFile()
+      {
+        BufferedReader br;
+        StringBuffer sBuffer = new StringBuffer();
+        try 
+          {
+            br = new BufferedReader (new FileReader(fName));
+            String oLine;
+          while ((oLine = br.readLine())!= null)
+             sBuffer.append(oLine+"\n");
+             tArea.setText(sBuffer.toString());
+             br.close();
+          }
+
+          
+      }
 
       
 
