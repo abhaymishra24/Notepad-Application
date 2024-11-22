@@ -1,11 +1,8 @@
 
-import com.sun.source.tree.TryTree;
-import java.io.*;
+import java.awt.*;
 import java.awt.datatransfer.*;
 import java.awt.event.*;
-import java.awt.*;
-import java.nio.file.FileSystemNotFoundException;
-import javax.xml.parsers.ParserConfigurationException;
+import java.io.*;
 
 public class Notepad extends Frame {
 
@@ -32,7 +29,7 @@ Notepad()
         nOption.addActionListener(new Ne_option());
         fileMenu.add(nOption);
 
-        oOption.addActionListener(new Op_option());
+        oOption.addActionListener(new Ope_option());
         fileMenu.add(oOption);
 
         sOption.addActionListener(new Sav_option());
@@ -122,7 +119,7 @@ class Sav_option implements ActionListener
                 {
             
             DataOutputStream dOutStream = new DataOutputStream(new FileOutputStream(fName));
-              String oLine - tArea.getText();
+              String oLine = tArea.getText();
               BufferedReader bReader = new BufferedReader (new StringReader(oLine));
   while((oLine = bReader.readLine()) != null)
                 {
