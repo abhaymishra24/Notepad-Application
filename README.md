@@ -21,7 +21,7 @@ The Notepad application program given below uses the following classes -
 
 ### Objectives✍️
 
-- To create a new text file
+- To create a new text file.
 - To perform common operation on a text file, such as cut, copy and paste.
 - To demonstrate how to build a GUI application using the AWT package.
 
@@ -46,4 +46,3 @@ I learned new things while working on this project and took some help from books
 ### Thank you for visit on this repository😊
 
 Feel free to explore my other repositories and reach out to me for collaborations or discussions on new idea and projects.🤝😊🧑‍💻
-
