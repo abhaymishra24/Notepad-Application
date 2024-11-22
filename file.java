@@ -181,7 +181,25 @@ class Sav_option implements ActionListener
               }
            }
 
-           
+           class Past_option implements ActionListener
+            {
+             public void actionPerformed(ActionEvent paste_o)
+                {
+                    Transferable ctransfer = cBoard.getContents(Notepad.this);
+                    try
+                      {
+                        String sText = (String)ctransfer.getTransferData(DataFlavor.stringFlavor);
+tArea.replaceRange(sText, tArea.getSelectionStart(), tArea.getSelectionEnd());
+                      }
+                      catch (Exception exc)
+                        {
+                            System.out.println("Not a String flavor");
+                        }
+                }
+
+            }
+
+            
 
       
 
