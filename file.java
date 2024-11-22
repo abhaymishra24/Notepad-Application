@@ -63,7 +63,23 @@ Notepad()
 
     }
 
-     
+     class gaListener extends WindowAdapter{
+
+        public void windowClosing(WindowEvent closeNotepad)
+        {
+            System.exit(0);
+        }
+     }
+
+    class Ne_option implements ActionListener
+    {
+        public void actionPerformed(ActionEvent ne)
+        {
+            tArea.setText(" ");
+        }
+    }
+    
+    clas
 
       
 
