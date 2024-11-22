@@ -199,13 +199,12 @@ tArea.replaceRange(sText, tArea.getSelectionStart(), tArea.getSelectionEnd());
 
             }
 
-            
-
-      
-
-
-
-
+            public static void main (String args[])
+              {
+                Frame nFrame = new Notepad();
+                nFrame.setSize(600, 600);
+                nFrame.setVisible(true);
+              }
 
 }
  
