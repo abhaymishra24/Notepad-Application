@@ -154,8 +154,13 @@ class Sav_option implements ActionListener
              br.close();
           }
 
-          
+          catch(FileNotFoundException fe) {
+            System.out.print("Required file not found");
+          }
+          catch (IOException ioe){}
       }
+
+      
 
       
 
