@@ -160,7 +160,16 @@ class Sav_option implements ActionListener
           catch (IOException ioe){}
       }
 
-      
+      class Cu_option implements ActionListener
+         {
+            public void actionPerformed(ActionEvent cut_o)
+               {
+                String sText = tArea.getSelectedText();
+                StringSelection sSelection = new StringSelection(sText);
+                cBoard.setContents(sSelection, sSelection);
+                tArea.replaceRange("", tArea.getSelectionStart(), tArea.getSelectionEnd());
+               }
+         }
 
       
 
