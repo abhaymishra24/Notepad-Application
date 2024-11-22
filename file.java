@@ -115,9 +115,31 @@ class Sav_option implements ActionListener
             if (fDialog.getFile() != null)
             {
                 fName = fDialog.getDirectory() + fDialog.getFile();
+                setTitle(fName);
+                try
+
+                {
+            
+            DataOutputStream dOutStream = new DataOutputStream(new FileOutputStream(fName));
+              String oLine - tArea.getText();
+              BufferedReader bReader = new BufferedReader (new StringReader(oLine));
+  while((oLine = bReader.readLine()) != null)
+                {
+                    dOutStream.writeBytes(oLine+"\r \n");
+                    dOutStream.close();
+                }
+       
+               }
+               catch(Exception ex)
+                  {
+                    System.out.print("Required file not found");
+                  }
+                  tArea.requestFocus();
             }
         }
     }
+
+    void
 
       
 
