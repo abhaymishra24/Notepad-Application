@@ -6,7 +6,8 @@
 ### Project Descripton✍️
 In this project, the Notepad application works pretty much similar to the Notepad utility of Windows-based system.
 It allows the user to create a new text documents, add content to it, edit it, save and close it. 
-The Notepad application program given below uses the following classes - 
+
+##### The Notepad application program given below uses the following classes - 
 
 1. Notepad (Realize the actual Notepad)
 2. ga listener (Exits the application)
