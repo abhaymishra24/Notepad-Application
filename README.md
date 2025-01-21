@@ -1,7 +1,7 @@
 
 ## Notepad-Application (Using Java)
  
-![Standpickup logo](https://github.com/abhaymishra24/Notepad-Application/blob/main/note_pade.jpg)
+![Notepad logo](https://github.com/abhaymishra24/Notepad-Application/blob/main/note_pade.jpg)
 
 ### Project Descripton✍️
 In this project, the Notepad application works pretty much similar to the Notepad utility of Windows-based system.
