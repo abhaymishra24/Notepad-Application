@@ -28,7 +28,9 @@ It allows the user to create a new text documents, add content to it, edit it, s
 - Java <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="20" height="20"/>
 - Java libraries.
 
-### Project Showcase🚀(Screenshot of project)
+### Project Showcase🚀(Screenshot of project) 
+
+#### Screen shot of project work - 
 
 <img width="400" alt="image" src="https://github.com/user-attachments/assets/c40020e6-07d8-45bf-af25-0302e7904b30">
 <img width="400" alt="image" src="https://github.com/user-attachments/assets/9679cf1e-5fe8-4ee4-810c-d4609d98b29c">
