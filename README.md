@@ -6,6 +6,7 @@
 ### Project Descripton✍️
 In this project, the Notepad application works pretty much similar to the Notepad utility of Windows-based system.
 It allows the user to create a new text documents, add content to it, edit it, save and close it. 
+It also includes basic editing features like cut, copy, and paste. 
 
 ##### The Notepad application program given below uses the following classes - 
 

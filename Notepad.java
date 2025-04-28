@@ -1,4 +1,7 @@
 
+// code of Notepad Application in Java and AWT
+// This is a simple notepad application that allows users to create, open, save, and edit text files.
+
 import java.awt.*;
 import java.awt.datatransfer.*;
 import java.awt.event.*;
